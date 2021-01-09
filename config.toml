@@ -1,0 +1,106 @@
+baseURL                    = "https://balakuntlaJayanth.github.io/"
+builddrafts                = false
+languageCode               = "en"
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+hasCJKLanguage             = false
+pygmentsUseClasses         = true 
+pygmentsCodefences         = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle              = "monokai"
+summaryLength              = 10
+Paginate                   = 5
+
+theme                      = "AllinOne"
+title                      = "JAYANTH B"
+
+pygmentsuseclasses         = true
+
+
+[permalinks]
+  sci-tech                 = "sci-tech/:year/:month/:title/:slug/"
+  blog                     = "blog/:year/:month/:title/:slug/"
+  stats                    = "stats/:year/:month/:title/:slug/"
+  bioinfo		    = "bioinfo/:year/:month/:title/:slug/"
+  profile                  = "profile/:slug/"
+  
+
+[taxonomies]
+  tag                      = "tags"
+  series                   = "series"
+  category                 = "categories"
+
+
+[menu]
+  [[menu.main]]
+    name                   = "Sci-Tech"
+    weight                 = 1
+    identifier             = "sci-tech"
+    url                    = "sci-tech/"
+
+   [[menu.main]]
+    name                   = "blog"
+    weight                 =  2
+    identifier             = "blog"
+    url                    = "blog/"
+
+  [[menu.main]]
+    name                   = "stats"
+    weight                 =  3
+    identifier             = "stats"
+    url                    = "stats/"
+
+  [[menu.main]]
+    name                   = "bioinfo"
+    weight                 =  4
+    identifier             = "bioinfo"
+    url                    = "bioinfo/"
+
+  [[menu.main]]
+     name                   = "Profile"
+     weight                 = 5
+     identifier             = "profile"
+     url                    = "profile/"
+
+  [[menu.main]]
+    name                   = "About"
+    weight                 = 6
+    identifier             = "about"
+    url                    = "about/"
+
+
+[params]
+  faviconfile              = "img/IMG_20190714_170707,jpg"
+  avatar                   = "img/IMG_20190714_170707.jpg"             # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+  author                   = "JAYANTH B"
+  description              = ["Be myself.", "Love the wonderful world."]           # appears in the site header when set to a non-empty string
+  welcome_head             = "Hello, World!"
+  welcome_word             = "~ Learning never exhausts the mind. – Leonardo da Vinci"
+
+  latestpostscount         = 5                             # how many posts to display on the home page
+  bloggroupby              = 'month'
+  dateform                 = "Jan 2, 2021"
+  dateformfull             = "2021-01-02  Monday  15:04:05"
+  noshowreadtime           = false       
+
+  # slides
+  slidesDirPath            = "static/img/header-slides"    # path to image in local dir (for hugo)
+  slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
+
+  
+
+  # highlighting 
+  highlightjs              = true
+  
+
+  # links
+  email                    = "jayanth.com@rediffmail.com"
+  github                   = "https://github.com/balakuntlaJayanth"
+  linkedin                 = "https://www.linkedin.com/in/jayanth-balakuntla-0332644b/"
+  include_rss              = false                         # include RSS <link> tag in <head> and show RSS icon
+
+# counter
+  busuanzi                 = true

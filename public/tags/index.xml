@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on JAYANTH B</title>
+    <link>https://balakuntlajayanth.github.io/tags/</link>
+    <description>Recent content in Tags on JAYANTH B</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://balakuntlajayanth.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Plotting Word cloud in R</title>
+      <link>https://balakuntlajayanth.github.io/tags/plotting-word-cloud-in-r/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0530</pubDate>
+      
+      <guid>https://balakuntlajayanth.github.io/tags/plotting-word-cloud-in-r/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

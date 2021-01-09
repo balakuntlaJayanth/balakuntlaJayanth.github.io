@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on JAYANTH B</title>
+    <link>https://balakuntlajayanth.github.io/blog/</link>
+    <description>Recent content in blog on JAYANTH B</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Jan 2021 22:02:38 +0530</lastBuildDate>
+    
+	<atom:link href="https://balakuntlajayanth.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JAYANTH B</title>
+    <link>https://balakuntlajayanth.github.io/</link>
+    <description>Recent content on JAYANTH B</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://balakuntlajayanth.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Plotting Word cloud in R</title>
+      <link>https://balakuntlajayanth.github.io/sci-tech/2021/01/plotting-word-cloud-in-r/plotting-word-cloud-in-r/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0530</pubDate>
+      
+      <guid>https://balakuntlajayanth.github.io/sci-tech/2021/01/plotting-word-cloud-in-r/plotting-word-cloud-in-r/</guid>
+      <description>Plotting Word Cloud in R text &amp;lt;- readLines(&amp;#34;martin-luther-king-i-have-a-dream-speech.txt&amp;#34;) library(&amp;#34;tm&amp;#34;) library(&amp;#34;SnowballC&amp;#34;) library(&amp;#34;wordcloud&amp;#34;) library(&amp;#34;RColorBrewer&amp;#34;) Loading required package: NLP Loading required package: RColorBrewer  docs &amp;lt;- Corpus(VectorSource(text)) toSpace &amp;lt;- content_transformer(function (x , pattern ) gsub(pattern, &amp;#34; &amp;#34;, x)) docs &amp;lt;- tm_map(docs, toSpace, &amp;#34;/&amp;#34;) docs &amp;lt;- tm_map(docs, toSpace, &amp;#34;@&amp;#34;) docs &amp;lt;- tm_map(docs, toSpace, &amp;#34;\\|&amp;#34;) # Convert the text to lower case docs &amp;lt;- tm_map(docs, content_transformer(tolower)) # Remove numbers docs &amp;lt;- tm_map(docs, removeNumbers) # Remove english common stopwords docs &amp;lt;- tm_map(docs, removeWords, stopwords(&amp;#34;english&amp;#34;)) # Remove your own stop word # specify your stopwords as a character vector docs &amp;lt;- tm_map(docs, removeWords, c(&amp;#34;blabla1&amp;#34;, &amp;#34;blabla2&amp;#34;)) # Remove punctuations docs &amp;lt;- tm_map(docs, removePunctuation) # Eliminate extra white spaces docs &amp;lt;- tm_map(docs, stripWhitespace) # Text stemming # docs &amp;lt;- tm_map(docs, stemDocument) dtm &amp;lt;- TermDocumentMatrix(docs) m &amp;lt;- as.</description>
+    </item>
+    
+    <item>
+      <title>Plotting Word cloud in R</title>
+      <link>https://balakuntlajayanth.github.io/stats/2021/01/plotting-word-cloud-in-r/plotting-word-cloud-in-r/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0530</pubDate>
+      
+      <guid>https://balakuntlajayanth.github.io/stats/2021/01/plotting-word-cloud-in-r/plotting-word-cloud-in-r/</guid>
+      <description>Plotting Word Cloud in R text &amp;lt;- readLines(&amp;#34;martin-luther-king-i-have-a-dream-speech.txt&amp;#34;) library(&amp;#34;tm&amp;#34;) library(&amp;#34;SnowballC&amp;#34;) library(&amp;#34;wordcloud&amp;#34;) library(&amp;#34;RColorBrewer&amp;#34;) Loading required package: NLP Loading required package: RColorBrewer  docs &amp;lt;- Corpus(VectorSource(text)) toSpace &amp;lt;- content_transformer(function (x , pattern ) gsub(pattern, &amp;#34; &amp;#34;, x)) docs &amp;lt;- tm_map(docs, toSpace, &amp;#34;/&amp;#34;) docs &amp;lt;- tm_map(docs, toSpace, &amp;#34;@&amp;#34;) docs &amp;lt;- tm_map(docs, toSpace, &amp;#34;\\|&amp;#34;) # Convert the text to lower case docs &amp;lt;- tm_map(docs, content_transformer(tolower)) # Remove numbers docs &amp;lt;- tm_map(docs, removeNumbers) # Remove english common stopwords docs &amp;lt;- tm_map(docs, removeWords, stopwords(&amp;#34;english&amp;#34;)) # Remove your own stop word # specify your stopwords as a character vector docs &amp;lt;- tm_map(docs, removeWords, c(&amp;#34;blabla1&amp;#34;, &amp;#34;blabla2&amp;#34;)) # Remove punctuations docs &amp;lt;- tm_map(docs, removePunctuation) # Eliminate extra white spaces docs &amp;lt;- tm_map(docs, stripWhitespace) # Text stemming # docs &amp;lt;- tm_map(docs, stemDocument) dtm &amp;lt;- TermDocumentMatrix(docs) m &amp;lt;- as.</description>
+    </item>
+    
+  </channel>
+</rss>
