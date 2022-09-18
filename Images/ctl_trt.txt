@@ -1,0 +1,4 @@
+group	weight
+ctrl	5.032
+trt1	4.661
+trt2	5.526
